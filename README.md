@@ -6,7 +6,7 @@ In a nutshell, we're starting from a prototype that my team built for ASHG 2018,
 
 It was a fairly painful process and we came away from it with the realization that there would be great value in turning this prototype into a community resource, hence the idea of the hackathon. We propose to do all the work in our cloud platform (app.terra.bio, successor to firecloud.org) and can provide a billing project to support all compute costs. We envisage 4 main workstreams that could accommodate people of different backgrounds/skillsets with tangible deliverables:
 
-1. Data in demand: search the research space to determine specifications of datasets (exomes, wgs? what coverage?) that would be useful to generate and provide as freely available resource so that people don't have to generate them from scratch every time. (Suitable for people with high scientific chops but low computational chops)
+1. [Data in demand](./Data-Demand/Readme.md): search the research space to determine specifications of datasets (exomes, wgs? what coverage?) that would be useful to generate and provide as freely available resource so that people don't have to generate them from scratch every time. (Suitable for people with high scientific chops but low computational chops)
 
 2. Method optimization: our prototype workflows are not very efficient in terms of either cost or runtime. We have some ideas for optimizing on both fronts (potentially using Hail) to make these resources more convenient and less costly to generate. (Suitable for people with algorithm and/or pipeline development experience)
 
