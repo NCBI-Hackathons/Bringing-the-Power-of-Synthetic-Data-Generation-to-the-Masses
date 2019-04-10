@@ -8,7 +8,7 @@ It was a fairly painful process and we came away from it with the realization th
 
 1. [Data in demand](./Data-Demand/Readme.md): search the research space to determine specifications of datasets (exomes, wgs? what coverage?) that would be useful to generate and provide as freely available resource so that people don't have to generate them from scratch every time. (Suitable for people with high scientific chops but low computational chops)
 
-2. Method optimization: our prototype workflows are not very efficient in terms of either cost or runtime. We have some ideas for optimizing on both fronts (potentially using Hail) to make these resources more convenient and less costly to generate. (Suitable for people with algorithm and/or pipeline development experience)
+2. [Method optimization](./Method-Optimization): our prototype workflows are not very efficient in terms of either cost or runtime. We have some ideas for optimizing on both fronts (potentially using Hail) to make these resources more convenient and less costly to generate. (Suitable for people with algorithm and/or pipeline development experience)
 
 3. Quality control: once we generate the synthetic data, we need to QC the data to make sure it matches what we expect based on method parameters, and if we spike in mutations we need to verify that we can pull out the expected variants. We envisage using existing code from our internal QC group to develop publicly shareable QC notebooks (but open to external contributions of course). This would also scratch a more general itch that people have around QCing genomic datasets. (Suitable for people with analytical and/or pipeline development experience)
 
