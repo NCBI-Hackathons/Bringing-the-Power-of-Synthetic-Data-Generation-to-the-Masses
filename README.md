@@ -2,7 +2,7 @@
 
 4 Objectives of the workshop
 
-In a nutshell, we're starting from a prototype that my team built for ASHG 2018, in which we reproduced an analysis from a preprint identifying risk factors for congenital heart disease from exome data. For the purposes of that project, we had to generate several hundred synthetic exomes and spike in mutations of interest. We wrote some pipelines to leverage existing tools (including NEAT from OICR iirc) and a notebook that recapitulated the clustering analysis. We have a poster that summarizes the project [here](./ASHG18-Reproducible-Paper-ToF-poster.pdf)
+In a nutshell, we're starting from a prototype that my team built for ASHG 2018, in which we reproduced an analysis from a preprint identifying risk factors for congenital heart disease from exome data. For the purposes of that project, we had to generate several hundred synthetic exomes and spike in mutations of interest. We wrote some pipelines to leverage existing tools (including NEAT from OICR iirc) and a notebook that recapitulated the clustering analysis. We have a poster that summarizes the project [here.](./ASHG18-Reproducible-Paper-ToF-poster.pdf)
 
 It was a fairly painful process and we came away from it with the realization that there would be great value in turning this prototype into a community resource, hence the idea of the hackathon. We propose to do all the work in our cloud platform (app.terra.bio, successor to firecloud.org) and can provide a billing project to support all compute costs. We envisage 4 main workstreams that could accommodate people of different backgrounds/skillsets with tangible deliverables:
 
