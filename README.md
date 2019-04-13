@@ -18,7 +18,7 @@ Creating an accurate synthetic data set of this size was a fairly painful proces
 
 * [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae) - This is a general lay of the land with respect to synthetic data - the food that all data scientists need to make progress. **It is not specific to genomics or biomedicine.** It is also only ten minutes or so to read through...
 
-* [[15 Best Test Data Generation Tools In 2019](https://www.rankred.com/test-data-generation-tools/) - These might spark some inspiration for alternative ways we might generate synthetic genomic data. 
+* [15 Best Test Data Generation Tools In 2019](https://www.rankred.com/test-data-generation-tools/) - These might spark some inspiration for alternative ways we might generate synthetic genomic data. 
 
 * [24 Ultimate Data Science Projects To Boost Your Knowledge and Skills (& can be accessed freely)](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/) - These are examples of sythetic data sets in other fields that might be interesting. 
 
