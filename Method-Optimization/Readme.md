@@ -11,7 +11,7 @@ The WDL and JSON for this section can be found here: https://github.com/terra-wo
 | [Mutate-reads-with-BAMSurgeon](Mutate-reads-with-BAMSurgeon.md) | participant | Introduce specific mutations into an analysis-ready BAM file with BAMSurgeon |
 | [Call-single-sample-GVCF-GATK4](Call-single-sample-GVCF-GATK4.md) | participant | Call variants per-sample and produce a GVCF file with GATK4 HaplotypeCaller |
 | [Joint-call-and-hard-filter-GATK4](Joint-call-and-hard-filter-GATK4.md) | participant_set | Apply joint variant discovery analysis and hard filtering |
-| Predict-variant-effects-GEMINI | participant_set | Predict and annotate the functional effects of variants using SnpEff and GEMINI
+| [Predict-variant-effects-GEMINI](redict-variant-effects-GEMINI.md) | participant_set | Predict and annotate the functional effects of variants using SnpEff and GEMINI
 
 ## Time and Cost
 
