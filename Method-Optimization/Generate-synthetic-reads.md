@@ -9,7 +9,7 @@
 
  Simulating Next-Generation Sequencing Datasets from Empirical Mutation and Sequencing Models
  Zachary D. Stephens , Matthew E. Hudson, Liudmila S. Mainzer, Morgan Taschuk, Matthew R. Weber, Ravishankar K. Iyer
- Published: November 28, 2016 | [https://doi.org/10.1371/journal.pone.0167047[(https://doi.org/10.1371/journal.pone.0167047)
+ Published: November 28, 2016 | https://doi.org/10.1371/journal.pone.0167047
 
 ### Main inputs
  - Participant ID or equivalent base name for naming outputs
