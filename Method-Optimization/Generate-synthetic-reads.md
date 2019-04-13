@@ -1,4 +1,4 @@
-### Workflow name: GenerateSyntheticReads
+## Workflow name: GenerateSyntheticReads
 
  This workflow uses the NEAT toolkit to generate synthetic paired-end read data based on a file of input variants
  and a desired mutation rate (can be 0 to not include any random mutation in addition to the input variants).
