@@ -1,8 +1,10 @@
 # Bringing-the-Power-of-Synthetic-Data-Generation-to-the-Masses
 
-4 Objectives of the workshop
+## Background
 
 In a nutshell, we're starting from a prototype our team built for ASHG (American Society of Human Genetics) 2018 as a demonstration of how to make a reproducible research study. In the original study, the authors identified risk factors for congenital heart disease using exome data from a cohort of more than 800 patients. To make this study reproducible, we needed to generate a synthetic data set, since the original data were private (we decided that it would be simpler than making the original data set sufficiently anonymous). We started from publically available 1,000 genomes exomes and spiked in mutations of interest. As part of that project, we wrote some pipelines to leverage existing tools (including NEAT from OICR iirc) for generating synthetic data. We have a poster that summarizes the project [here.](./ASHG18-Reproducible-Paper-ToF-poster.pdf)
+
+## 4 Objectives of the BioIT Hackathon
 
 Creating an accurate synthetic data set of this size was a fairly painful process, and we realized there would be great value in turning our prototype into a community resource. Hence the idea of bringing to the hackathon! We propose to do all the work in Terra, our cloud-based platform (app.terra.bio, successor to firecloud.org) and can provide a billing project to support all compute costs. We plan on having four main workstreams, each with tangible deliverables, that could accommodate people of different backgrounds/skillsets:
 
