@@ -6,7 +6,7 @@ There are 6 steps in the process:
 
 | Name | Entity Type| Synopsis |
 |---|---|---|
-| Collect-1000G-participant | participant | Collect the variants for a single participant from 1000G Phase 3 |
+| [Collect-1000G-participant](./Collect-1000G-participant) | participant | Collect the variants for a single participant from 1000G Phase 3 |
 | Generate-synthetic-reads | participant | Generate synthetic read data based on intervals and a VCF of variants |
 | Mutate-reads-with-BAMSurgeon | participant | Introduce specific mutations into an analysis-ready BAM file with BAMSurgeon |
 | Call-single-sample-GVCF-GATK4 | participant | Call variants per-sample and produce a GVCF file with GATK4 HaplotypeCaller |
