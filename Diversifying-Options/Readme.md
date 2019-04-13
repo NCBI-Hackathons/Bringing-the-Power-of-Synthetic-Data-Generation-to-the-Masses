@@ -4,7 +4,9 @@ Diversifying options: Extend to more variant types than single nucleotide varian
 
 ### Workflow name: MutateReadsWithBAMSurgeon
 
- The current version of the workflow uses the BAMSurgeon `addsnv.py` tool to introduce specific mutations into an analysis-ready BAM file.
+Every workflow on Terra consists of at least 2 parts.  A [WDL(Workflow Description Language)](Mutate-reads-with-BAMSurgeon.wdl) file and a [JSON that characterizes the inputs](Mutate-reads-with-BAMSurgeon.json).  In addition, workspace attributes may have been set to facilitate the recall of reference files, dockers, etc. by multiple workflows in the same workspace. 
+
+The current version of the workflow uses the BAMSurgeon `addsnv.py` tool to introduce specific mutations into an analysis-ready BAM file.
 
  BAMSurgeon is a toolkit written by Adam Ewing et al. described in the paper cited below. The source code is
  available on Github at https://github.com/adamewing/bamsurgeon
