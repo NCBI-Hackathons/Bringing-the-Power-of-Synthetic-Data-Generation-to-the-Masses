@@ -16,13 +16,13 @@ Creating an accurate synthetic data set of this size was a fairly painful proces
 
 ## Some useful background reading
 
-* [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae) - This is a general lay of the land with respect to synthetic data and how it is the food that all data scientists need to make progress. **It is not specific to genomics or biomedicine.** It is also only ten minutes or so to read through...
+* [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae) - This is a general lay of the land with respect to synthetic data - the food that all data scientists need to make progress. **It is not specific to genomics or biomedicine.** It is also only ten minutes or so to read through...
 
 * [[15 Best Test Data Generation Tools In 2019](https://www.rankred.com/test-data-generation-tools/) - These might spark some inspiration for alternative ways we might generate synthetic genomic data. 
 
-* [24 Ultimate Data Science Projects To Boost Your Knowledge and Skills (& can be accessed freely)](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/) - These are some examples of sythetic data sets in other fields that might be interesting. 
+* [24 Ultimate Data Science Projects To Boost Your Knowledge and Skills (& can be accessed freely)](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/) - These are examples of sythetic data sets in other fields that might be interesting. 
 
-* [Heart Disease Prevalence from SyntheticMass](https://syntheticmass.mitre.org/dashboard/synthea/town/pct_heart_disease) - This group has generated sythetic census data for the state of Massachusetts. Here's one example for heart disease.
+* [Heart Disease Prevalence from SyntheticMass](https://syntheticmass.mitre.org/dashboard/synthea/town/pct_heart_disease) - Synthetic Mass has generated sythetic census data for the state of Massachusetts. Here's one example for heart disease.
 
 * [Public data and open source tools for multi-assay genomic investigation of disease](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945830/) - This is a summary of public-access sources of genomics data. It will offer information on where there are gaps that synthetic data could fill.
 
