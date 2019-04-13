@@ -22,6 +22,6 @@ The WDL and JSON for this section can be found here: https://github.com/terra-wo
 | 3_Mutate-reads-with-BAMSurgeon   	| $0.02 to $0.15 	| $5.72     	| .5 hours           	| 2.5 hours             	|
 | 4_Call-single-sample-GVCF-GATK4  	| $0.32 to $0.52 	| $39.82    	| 1.75 hours         	| 2.75 hours            	|
 | 5_Joint-call-and-hard-filter     	|                	| $10.09    	|                    	| 4 hours               	|
-| P6_redict-variant-effects-GEMINI 	|                	| $1.00     	|                    	| 4 minutes             	|
+| 6_Predict-variant-effects-GEMINI 	|                	| $1.00     	|                    	| 4 minutes             	|
 
 The goal of this objective in the Hackathon is to brainstorm ways to reduce the time and costs of the entire workflow.
