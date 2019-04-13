@@ -6,7 +6,7 @@ In a nutshell, we're starting from a prototype our team built for ASHG (American
 
 ## 4 Objectives of the BioIT Hackathon
 
-Creating an accurate synthetic data set of this size was a fairly painful process, and we realized there would be great value in turning our prototype into a community resource. Hence the idea of bringing to the hackathon! We propose to do all the work in Terra, our cloud-based platform (app.terra.bio, successor to firecloud.org) and can provide a billing project to support all compute costs. We plan on having four main workstreams, each with tangible deliverables, that could accommodate people of different backgrounds/skillsets:
+Creating an accurate synthetic data set of this size was a fairly painful process, and we realized there would be great value in turning our prototype into a community resource. Hence the idea of bringing to the hackathon! We propose to do all the work in Terra, our cloud-based platform (app.terra.bio, successor to firecloud.org) and can provide a billing project to support all compute costs. We plan on dividing up our team to tackle four main objectives, each with tangible deliverables, that accommodate people of different backgrounds, skillsets and interests:
 
 1. [Data in demand](./Data-Demand): This group will search the research space to determine specifications of datasets (exomes? wgs? what coverage?) that would be most useful to generate as freely available resources so that people don't have to generate them from scratch every time (suitable for people with high scientific chops but low computational chops).
 
