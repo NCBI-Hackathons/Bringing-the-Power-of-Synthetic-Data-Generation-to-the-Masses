@@ -33,3 +33,5 @@
  - Cromwell version support: successfully tested on v34
  - Runtime parameters are optimized for Broad's Google Cloud Platform implementation.
  - For program versions, see docker containers.
+
+More details about the workflow tool can be found in the Terra workspace for the hackathon.
