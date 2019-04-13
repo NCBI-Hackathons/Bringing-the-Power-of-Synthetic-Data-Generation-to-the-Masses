@@ -7,7 +7,7 @@
 
  Combining tumor genome simulation with crowdsourcing to benchmark somatic single-nucleotide-variant detection.
  Adam D Ewing, Kathleen E Houlahan, Yin Hu, Kyle Ellrott, Cristian Caloian, Takafumi N Yamaguchi, J Christopher Bare,
- Christine P���ng, Daryl Waggott, Veronica Y Sabelnykova, ICGC-TCGA DREAM Somatic Mutation Calling Challenge
+ Christine P'ng, Daryl Waggott, Veronica Y Sabelnykova, ICGC-TCGA DREAM Somatic Mutation Calling Challenge
  participants, Michael R Kellen, Thea C Norman, David Haussler, Stephen H Friend, Gustavo Stolovitzky, Adam A
  Margolin, Joshua M Stuart, Paul C Boutros
  Published: May 18, 2015 | https://dx.doi.org/10.1038%2Fnmeth.3407
@@ -32,3 +32,5 @@
  - Cromwell version support: successfully tested on v34
  - Runtime parameters are optimized for Broad's Google Cloud Platform implementation.
  - For program versions, see docker containers.
+
+More details about the workflow tool can be found in the Terra workspace for the hackathon.
