@@ -23,3 +23,10 @@ Creating an accurate synthetic data set of this size was a fairly painful proces
 * [24 Ultimate Data Science Projects To Boost Your Knowledge and Skills (& can be accessed freely)](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/) - These are some examples of sythetic data sets in other fields that might be interesting. 
 
 * [Heart Disease Prevalence from SyntheticMass](https://syntheticmass.mitre.org/dashboard/synthea/town/pct_heart_disease) - This group has generated sythetic census data for the state of Massachusetts. Here's one example for heart disease.
+
+* [Public data and open source tools for multi-assay genomic investigation of disease](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945830/) - This is a summary of public-access sources of genomics data. It will offer information on where there are gaps that synthetic data could fill.
+
+* [Generation of Artificial FASTQ Files to Evaluate the Performance of Next-Generation Sequencing Pipelines](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0049110) - Here's our competition! Or at least the synthetic genomics data state of the art...
+
+Do you have other ideas? Send them to me at [jhajian@broadinstitute.org](mailto:jhajian@broadinstitute.org) and I will add them to the git.
+
