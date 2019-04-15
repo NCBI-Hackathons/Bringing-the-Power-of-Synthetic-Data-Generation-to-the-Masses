@@ -20,7 +20,7 @@ Reduce the runtime and cost of the workflows involved in synthetic data generati
 
 ### Runtime and cost  
 
-| Workflow Name                  	| Cost for 1x (range) 	| Cost for 100x (total)	| Time to Run 1x 	| Time to Run 100x in parallel (wallclock) 	|
+| Workflow Name                  	| Cost for 1 sample (range) 	| Cost for 100 samples (total)	| Time to run 1 sample 	| Time to run 100 samples in parallel (wallclock) 	|
 |:--------------------------------	|:----------------	|:-----------	|:--------------------	|:-----------------------	|
 | Collect1000GParticipant     	| $1.64 to $2.90 	| $193.75   	| 4.5 hours          	| 12 hours              	|
 | GenerateSyntheticReads       	| $2.40 to $3.44 	| $405.67   	| 4.5 hours          	| 12 hours              	|
