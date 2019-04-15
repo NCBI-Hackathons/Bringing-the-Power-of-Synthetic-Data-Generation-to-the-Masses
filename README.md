@@ -29,7 +29,3 @@ The shared workspace for the hackathon can be accessed publicly here:
 https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic-Data-Team
 
 **[Instructions for Signing up for Terra during the 2019 BioIT Hackathon](Hackathon-Instructions.pdf)**
-
-## Background reading
-
-* [A Review Of Synthetic Data Generation Methods For Privacy Preserving Data Publishing](https://www.ijstr.org/final-print/mar2017/A-Review-Of-Synthetic-Data-Generation-Methods-For-Privacy-Preserving-Data-Publishing.pdf) . 
