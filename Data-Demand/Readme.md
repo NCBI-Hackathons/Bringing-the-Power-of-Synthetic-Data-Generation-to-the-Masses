@@ -34,6 +34,8 @@ This paper describes a tool for generating read data in FASTQ format.
 
 ### Synthetic data in general (not specific to genomics) 
 
+* [A Review Of Synthetic Data Generation Methods For Privacy Preserving Data Publishing](https://www.ijstr.org/final-print/mar2017/A-Review-Of-Synthetic-Data-Generation-Methods-For-Privacy-Preserving-Data-Publishing.pdf) . 
+
 * [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae) 
 This is a general lay of the land with respect to synthetic data and how it is the food that all data scientists need to make progress. It is also only ten minutes or so to read through...
 
