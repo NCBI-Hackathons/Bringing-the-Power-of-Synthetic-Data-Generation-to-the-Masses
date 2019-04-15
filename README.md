@@ -20,13 +20,7 @@ Creating an accurate synthetic dataset of this size for the original project was
 
 ## Workspace in Terra
 
-
 For the purposes of the hackathon, we will perform all computational work on [Terra](https://terra.bio/), an open cloud-based platform for genomic analysis operated by the Data Sciences Platform at the Broad Institute. 
-=======
-* [A Review Of Synthetic Data Generation Methods For Privacy Preserving Data Publishing](https://www.ijstr.org/final-print/mar2017/A-Review-Of-Synthetic-Data-Generation-Methods-For-Privacy-Preserving-Data-Publishing.pdf) . 
-
-* [Heart Disease Prevalence from SyntheticMass](https://syntheticmass.mitre.org/dashboard/synthea/town/pct_heart_disease) - Synthetic Mass has generated sythetic census data for the state of Massachusetts. Here's one example for heart disease.
-
 
 This project is sponsored by a Google Education Grant (https://cloud.google.com/edu/). If you're joining our project, contact Tiffany Miller (tiffanym@broadinstitute.org) to get added as a contributor with write/compute permissions to the [Terra Workspace](https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic-Data-Team). After the Hackathon, if you'd like to continue using Terra, you can sign up for individual free credits to create your own workspaces by clicking on the option on the front page or the [Terra application](https://app.terra.bio).
 
@@ -35,3 +29,7 @@ The shared workspace for the hackathon can be accessed publicly here:
 https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic-Data-Team
 
 **[Instructions for Signing up for Terra during the 2019 BioIT Hackathon](Hackathon-Instructions.pdf)**
+
+## Background reading
+
+* [A Review Of Synthetic Data Generation Methods For Privacy Preserving Data Publishing](https://www.ijstr.org/final-print/mar2017/A-Review-Of-Synthetic-Data-Generation-Methods-For-Privacy-Preserving-Data-Publishing.pdf) . 
