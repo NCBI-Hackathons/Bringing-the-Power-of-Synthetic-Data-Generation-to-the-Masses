@@ -36,3 +36,5 @@ https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic
 **[Instructions for Signing up for Terra during the 2019 BioIT Hackathon](Hackathon-Instructions.pdf)**
 
 **[Link to Basic Terra Introductory PDF's](https://drive.google.com/open?id=14eKJk6xYqLNm9rVnUE7FN_f6kqckZOaY)**
+
+![alt text](terra-slide.png)
