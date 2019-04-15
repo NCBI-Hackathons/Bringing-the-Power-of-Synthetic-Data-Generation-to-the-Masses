@@ -1,12 +1,12 @@
 ## Goals
 
-1. Generalize the read data generation workflow to make it possible to use more options of the NEAT Read Simulator toolkit (eg error models, coverage options etc). 
-
-2. Extend the mutation spike-in workflow to make it possible to introduce other variant types than single nucleotide variants (SNVs).
+1. Extend the mutation spike-in workflow to make it possible to introduce other variant types than single nucleotide variants (SNVs).
 
 ## Proposed tasks
+A WDL uses Bamsurgeon for spiking variants 
+Currently the WDL only supports SNVs
+Adding INDELs & SVs
 
-See the README about the workflows in the `workflows` directory for background details on each of the two relevant workflows.
 
 ### Read data generation
 
