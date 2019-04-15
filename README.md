@@ -22,7 +22,6 @@ Creating an accurate synthetic dataset of this size for the original project was
 
 ![alt text](Workflow.png)
 
-----
 
 ## Workspace in Terra
 
