@@ -25,26 +25,26 @@ This section lists the WDL workflow files and the corresponding workflow name as
 
 These are the workflows that we originally used to generate synthetic read data, and which are the main focus of this hackathon project.
 
-#### Collect-1000G-participants.wdl | Collect1000GParticipant 
+#### Collect1000GParticipant | Collect-1000G-participants.wdl
 This workflow collects the variants for a single participant from the master 1000 Genomes Projects Phase 3 data stored as separate per-chromosome VCFs in GCS by Google Genomics (as mirror of the EBI site) and consolidates them over all chromosomes.
 
-#### Generate-synthetic-reads.wdl | GenerateSyntheticReads
+#### GenerateSyntheticReads | Generate-synthetic-reads.wdl 
 This workflow uses the NEAT toolkit to generate synthetic paired-end read data based on a file of input variants and a desired mutation rate (can be 0 to not include any random mutation in addition to the input variants). It creates an analysis-ready BAM file and a "ground truth" VCF.
 
-#### Mutate-reads-with-BAMSurgeon.wdl | MutateReadsWithBAMSurgeon
+#### MutateReadsWithBAMSurgeon | Mutate-reads-with-BAMSurgeon.wdl
 This workflow uses the BAMSurgeon `addsnv.py` tool to introduce specific mutations into an analysis-ready BAM file.
 
 ### Data analysis from ToF project
 
 These are the workflows we used to reproduce the Tetralogy of Fallot analysis proper. We include them here in case we want to run some evaluations of how synthetic dataset properties affect analysis results, but we don't expect to make any modifications to these workflows.
 
-#### Call-single-sample-GVCF-GATK4.wdl | CallSingleSampleGvcfGATK4
+#### CallSingleSampleGvcfGATK4 | Call-single-sample-GVCF-GATK4.wdl
 This workflow uses GATK4 HaplotypeCaller to call variants per-sample and produce a GVCF file, which is an intermediate in the GATK joint calling workflow for germline short variants. The HaplotypeCaller's execution is scattered over sets of intervals, and followed by a merging step to produce a single file.
 
-#### Joint-call-and-hard-filter-GATK4.wdl | JointCallAndHardFilterGATK4
+#### JointCallAndHardFilterGATK4 | Joint-call-and-hard-filter-GATK4.wdl
 This workflow uses several GATK4 tools, including the GenomicsDB tooling for scalable joint calling, to apply joint variant discovery analysis to GVCFs produced by HaplotypeCaller and apply a simple hard filtering threshold. Note that this does not completely follow the official GATK Best Practices recommendations, which use VQSR for multisample datasets and CNN for single WGS or small exome cohorts (N<30).
 
-#### Predict-variant-effects-GEMINI.wdl | PredictVariantEffectsGEMINI
+#### PredictVariantEffectsGEMINI | Predict-variant-effects-GEMINI.wdl
 This workflow annotates functional predictions using SnpEff and GEMINI after normalizing the variant representations using vt, a toolkit for manipulating variants that is best known for its normalization capabilities.
 
 
