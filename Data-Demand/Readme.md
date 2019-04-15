@@ -48,3 +48,8 @@ These are some examples of sythetic data sets in other fields that might be inte
 * [Heart Disease Prevalence from SyntheticMass](https://syntheticmass.mitre.org/dashboard/synthea/town/pct_heart_disease)
 This group has generated sythetic census data for the state of Massachusetts. Here's one example for heart disease.
 
+### Some Initial Thoughts
+* **Synthetic data sets are necessary to QC your analysis tools:** Because you know what you put in, nyou know what you expect your tools to return. You need to do this in order to believe the results from a real data set (i.e. real genomics research).
+
+* **
+
