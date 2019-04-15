@@ -22,6 +22,8 @@ Creating an accurate synthetic dataset of this size for the original project was
 
 ![alt text](Workflow.png)
 
+----
+
 ## Workspace in Terra
 
 For the purposes of the hackathon, we will perform all computational work on [Terra](https://terra.bio/), an open cloud-based platform for genomic analysis operated by the Data Sciences Platform at the Broad Institute. 
