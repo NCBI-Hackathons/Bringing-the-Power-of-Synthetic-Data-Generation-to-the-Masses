@@ -1,5 +1,7 @@
 # Bringing-the-Power-of-Synthetic-Data-Generation-to-the-Masses
 
+![alt text](Workflow.png)
+
 ## Background
 
 In a nutshell, we're starting from a prototype our team built for ASHG (American Society of Human Genetics) 2018 as a demonstration of how to make a reproducible research study. In the original study, the authors identified risk factors for congenital heart disease using exome data from a cohort of more than 800 patients. To make this study reproducible, we needed to generate a synthetic data set, since the original data were private (we decided that it would be simpler than making the original data set sufficiently anonymous). We started from publically available 1,000 genomes exomes and spiked in mutations of interest. As part of that project, we wrote some pipelines to leverage existing tools (including NEAT and BamSurgeon) for generating synthetic data. We have a poster that summarizes the project [here](./ASHG18-Reproducible-Paper-ToF-poster.pdf).
