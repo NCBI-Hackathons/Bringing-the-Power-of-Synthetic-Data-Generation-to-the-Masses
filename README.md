@@ -1,5 +1,7 @@
 # Bringing-the-Power-of-Synthetic-Data-Generation-to-the-Masses
 
+![alt text](terraimage.png)
+
 ![alt text](Workflow.png)
 
 ## Background
