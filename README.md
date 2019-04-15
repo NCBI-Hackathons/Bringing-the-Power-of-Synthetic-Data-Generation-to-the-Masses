@@ -28,4 +28,4 @@ The shared workspace for the hackathon can be accessed publicly here:
 
 https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic-Data-Team
 
-TODO: Add Terra instructions handout to the repo and link here
+**TODO: Add Terra instructions handout to the repo and link here**
