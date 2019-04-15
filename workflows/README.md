@@ -10,12 +10,9 @@ WDL workflows can be executed using the Cromwell workflow management system, whi
 
 For the purposes of the hackathon, we will run our workflows on [Terra](https://terra.bio/), an open cloud-based platform for genomic analysis operated by the Data Sciences Platform at the Broad Institute. Terra includes a Cromwell server and a user-friendly interface for managing and running WDL workflows. 
 
-**TODO: Briefly describe the workspace**
+See the workspace description and link in the main project README doc. 
 
 Note that we are using [workspace attributes](workspace_attributes.txt) to facilitate the use of reference files, dockers, etc. by multiple workflows in the same workspace.
-
-**TODO: Add Terra instructions handout to the repo and link here**
-
 
 ## Original prototype workflows
 
