@@ -6,7 +6,7 @@ In a nutshell, we're starting from a prototype our team built for ASHG (American
 
 ![alt text](case-study.png)
 
-Be sure to check out the **Background reading** section in the [Data Demand README doc](./Data-Demand/Readme.md) for pointers to interesting articles on the purpose of synthetic datasets and examples of tools and approaches that can be used for generating synthetic sequence data. 
+Be sure to check out the **Background reading** section in the [Data Demand README doc](./Data-Demand/Readme.md) for pointers to interesting articles on the purpose of synthetic datasets and examples of tools and approaches that can be used for generating synthetic sequence data. Also, we have uploaded Geraldine's [slides from Day 1 here.](190415-BioIT-Hackathon-project-intro_Day1.pdf)
 
 ## Objectives of this hackathon project
 
