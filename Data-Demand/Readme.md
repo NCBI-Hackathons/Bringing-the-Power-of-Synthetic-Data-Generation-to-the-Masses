@@ -10,6 +10,37 @@ Determine what kind(s) of data would have the highest impact as a community reso
 
 3. (stretch) Evaluate whether there are tools other than the NEAT Read Simulator that we should consider using depending on the type of data resource we decide to focus on. What are the strengths and weaknesses of the available tools? 
 
+## A Roadmap for Synthetic Data
+
+### Sanity check for developers    
+The primary need for synthetic data sets (based on literature search and interviews with hackathon participants) is for QC of existing analysis tools. 
+- Testing the plumbing - synthetic data is sufficient  
+- Testing the algorithm - synthetic data is not currently up to the task 
+
+### Sanity check for end users
+- Synthetic data can help researchers understand how to use available tools and data sets. Practicing on synthetic data sets can answer questions like "how do I use these tools" and "are these tools giving me the output I expct?"
+- 
+
+### What would a public-facing synthetic data set resource look like?   
+1. Pre-made public synthetic data sets
+    a. WES and GWS cohort sizees of hundreds to thousands
+    b. A handful of read sizes (**XX**)
+    c. 
+    
+2. Self-service (choose your own mutation)
+    a. Study specific
+    b. Reproducing a study (accompanying publications to enable extending the research)
+
+### Aspirational goals  
+- Non-human genomes
+- More complex variations (i.e. polygenic)  
+
+### The ultimate holy grail      
+- Can we generate a totally synthetic "genome" that is functionally correct but not based on any one public-access genome?
+- How to integrate population specifics? (the 10% variations that are based on populations)
+
+------
+
 ## Some background reading
 
 If you find useful/interesting resources to add to this document, please open an issue or make a pull request to update it. 
