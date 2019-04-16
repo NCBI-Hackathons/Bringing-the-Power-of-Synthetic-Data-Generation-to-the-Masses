@@ -24,6 +24,10 @@ workflow CollectQualityMetrics {
   Boolean wgsMetrics # flag to indicate if wgsMetrics should be run
   Boolean exomeMetrics # flag to indicate if exomeMetrics should be run
 
+  # TODO: this scatter means that the real input file metrics are run twice. The 
+  #       scatter should only be relevant to the synthetic data. We have just repeated
+  #       the block but this could be done more elegantly
+
   scatter (bam in synth_inputs) {
     File bai = sub(bam, ".bam", ".bai")
 
@@ -39,19 +43,6 @@ workflow CollectQualityMetrics {
         read_length = read_length,
         metrics_filename = basename(bam, ".bam") + "_synth_metrics.txt"
       }
-
-      call CollectWgsMetrics as RealWgsMetrics {
-      input: 
-        input_bam = bam,
-        input_bam_index = bai,
-        ref_fasta = ref_fasta,
-        ref_fasta_index = ref_fasta_index,
-        wgs_coverage_interval_list = interval_list,
-        preemptible_tries = preemptible_tries,
-        read_length = read_length,
-        metrics_filename = basename(bam, ".bam") + "_real_metrics.txt"
-      }
-
     }
     
     if (exomeMetrics) {
@@ -66,20 +57,38 @@ workflow CollectQualityMetrics {
         preemptible_tries = preemptible_tries,
         metrics_filename = basename(bam, ".bam") + "_synth_metrics.txt"
       }
-
-      call CollectHsMetrics as RealHsMetrics {
-      input: 
-        input_bam = bam,
-        input_bam_index = bai,
-        ref_fasta = ref_fasta,
-        bait_interval_list = bait_interval_list,
-        ref_fasta_index = ref_fasta_index,
-        target_interval_list = interval_list,
-        preemptible_tries = preemptible_tries,
-        metrics_filename = basename(bam, ".bam") + "_real_metrics.txt"
-      }
     }
   }
+
+  if (wgsMetrics) {  
+    call CollectWgsMetrics as RealWgsMetrics {
+    input: 
+      input_bam = bam,
+      input_bam_index = bai,
+      ref_fasta = ref_fasta,
+      ref_fasta_index = ref_fasta_index,
+      wgs_coverage_interval_list = interval_list,
+      preemptible_tries = preemptible_tries,
+      read_length = read_length,
+      metrics_filename = basename(bam, ".bam") + "_real_metrics.txt"
+    }
+  }
+
+  if (exomeMetrics) {
+    call CollectHsMetrics as RealHsMetrics {
+    input: 
+      input_bam = bam,
+      input_bam_index = bai,
+      ref_fasta = ref_fasta,
+      bait_interval_list = bait_interval_list,
+      ref_fasta_index = ref_fasta_index,
+      target_interval_list = interval_list,
+      preemptible_tries = preemptible_tries,
+      metrics_filename = basename(bam, ".bam") + "_real_metrics.txt"
+    }
+  }
+
+
 }
 
 
