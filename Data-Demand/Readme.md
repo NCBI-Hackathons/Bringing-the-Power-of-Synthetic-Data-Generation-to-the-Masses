@@ -10,34 +10,59 @@ Determine what kind(s) of data would have the highest impact as a community reso
 
 3. (stretch) Evaluate whether there are tools other than the NEAT Read Simulator that we should consider using depending on the type of data resource we decide to focus on. What are the strengths and weaknesses of the available tools? 
 
-## A Roadmap for Synthetic Data
-
-### Sanity check for developers    
-The primary need for synthetic data sets (based on literature search and interviews with hackathon participants) is for QC of existing analysis tools. 
-- Testing the plumbing - synthetic data is sufficient  
-- Testing the algorithm - synthetic data is not currently up to the task 
+## A Roadmap for Synthetic Data - What's Useful? What's Attainable? What Can We Aspire To?
 
 ### Sanity check for end users
-- Synthetic data can help researchers understand how to use available tools and data sets. Practicing on synthetic data sets can answer questions like "how do I use these tools" and "are these tools giving me the output I expct?"
-- 
+- Help researchers understand how to use available tools and data sets. 
+- Practice on synthetic data sets 
+- Answer questions like "how do I use these tools?" and "What kind of output can I expct?"  
+- Also useful for onboarding and training   
+
+### Sanity check for developers    
+QC of existing analysis tools:     
+- Testing the plumbing (note: today's synthetic data is sufficient)  
+- Testing the algorithm (note: today's synthetic data is not currently up to the task)  
+
+### Enabler of reproducible research  
+- First step to expanding the research (replication)
+- Entirely reproducible publications
+
 
 ### What would a public-facing synthetic data set resource look like?   
-1. Pre-made public synthetic data sets
-    a. WES and GWS cohort sizees of hundreds to thousands
-    b. A handful of read sizes (**XX**)
-    c. 
+
+**1. A curated selection of pre-made public synthetic data sets (data)**
+
+    a. WES and GWS 
+    b. Cohort sizees of hundreds to thousands
+    c. Pre-selected read lengths (TBD)
+    d Pre-selected read depths (TBD)
+    e. Pre-defined variant types (TBD)
     
-2. Self-service (choose your own mutation)
-    a. Study specific
-    b. Reproducing a study (accompanying publications to enable extending the research)
+    **Questions**
+    - Who would pay to generate and host these sets?   
+    - Who would be able to access and would there be a nominal fee?  
+    
+**2. Self-service (choose your own mutation)**
+Researchers could access this set of tools via a platform interface that would allow them to control the parameters of their synthetic data set to reproduce published results.   
+   - Source data   
+   - Cohort size  
+   - Read length  
+   - Read depth  
+   - Variant types   
+       
 
 ### Aspirational goals  
-- Non-human genomes
-- More complex variations (i.e. polygenic)  
+**Non-human genomes**
+   - Mock metagenome communities
+   - What is a (non-human) whole genome?  
+   - Can you even have a reference genome?   
+   
+**Polygenic diseases**  
+
 
 ### The ultimate holy grail      
 - Can we generate a totally synthetic "genome" that is functionally correct but not based on any one public-access genome?
-- How to integrate population specifics? (the 10% variations that are based on populations)
+- Can we integrate allelic frequencies from the human population?   
 
 ------
 
