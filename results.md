@@ -1,4 +1,4 @@
-# Results for bringing synthetic data generation to the masses
+## Results produced during the NCBI FAIR hackathon 4/15-16
 
 ![alt text](slide1.png)
 
