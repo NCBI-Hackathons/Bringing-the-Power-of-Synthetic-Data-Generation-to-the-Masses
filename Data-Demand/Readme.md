@@ -48,8 +48,15 @@ These are some examples of sythetic data sets in other fields that might be inte
 * [Heart Disease Prevalence from SyntheticMass](https://syntheticmass.mitre.org/dashboard/synthea/town/pct_heart_disease)
 This group has generated sythetic census data for the state of Massachusetts. Here's one example for heart disease.
 
-### Some Initial Thoughts
-* **Synthetic data sets are necessary to QC your analysis tools:** Because you know what you put in, nyou know what you expect your tools to return. You need to do this in order to believe the results from a real data set (i.e. real genomics research).
+### Some Initial Thoughts (AHajian)
+* **Synthetic data sets are necessary to QC your analysis tools:** Because with synthetic data, you know what variants you put in, and you know what you expect your tools to return. Thus synthetic data plays an important role in validating that the tools are working as expected, and that you can believe the results from a real data set.
 
-* **
+* **Synthetic data sets are valuable for enabling reproducibility** But this is a longer-term benefit. The first is a more immediate need.
+
+* **To be truly valuable as a resource, synthetic data sets need to be completely unidentifiable from their source data (i.e. 1,000 genomes)**
+
+* **There is value in a lerge cohort of synthetic data sets across a range of populations** 
+
+* **What data sets are available for use as the foundation of the synthetic data?** What are the pros and cons of each?
+
 
