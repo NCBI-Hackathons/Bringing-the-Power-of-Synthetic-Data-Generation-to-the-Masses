@@ -14,9 +14,9 @@ Reduce the runtime and cost of the workflows involved in synthetic data generati
 
 | Name | Synopsis |
 |:---|:---|
-| [Collect1000GParticipant](Collect-1000G-participant.md) | Collect the variants for a single participant from 1000G Phase 3 |
-| [GenerateSyntheticReads](Generate-synthetic-reads.md) | Generate synthetic read data based on intervals and a VCF of variants |
-| [MutateReadsWithBAMSurgeon](Mutate-reads-with-BAMSurgeon.md) | Introduce specific mutations into an analysis-ready BAM file with BAMSurgeon |
+| [Collect1000GParticipant](../workflows/Collect-1000G-participant/Collect-1000G-participant.md) | Collect the variants for a single participant from 1000G Phase 3 |
+| [GenerateSyntheticReads](../workflows/Generate-synthetic-reads/Generate-synthetic-reads.md) | Generate synthetic read data based on intervals and a VCF of variants |
+| [MutateReadsWithBAMSurgeon](../workflows/Mutate-reads-with-BAMSurgeon/Mutate-reads-with-BAMSurgeon.md) | Introduce specific mutations into an analysis-ready BAM file with BAMSurgeon |
 
 ### Runtime and cost  
 
