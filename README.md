@@ -7,6 +7,8 @@ In a nutshell, we're starting from a prototype our team built for ASHG (American
 ![alt text](./images/case-study.png)
 
 Be sure to check out the **Background reading** section in the [Data Demand README doc](./Data-Demand/README.md) for pointers to interesting articles on the purpose of synthetic datasets and examples of tools and approaches that can be used for generating synthetic sequence data. 
+  
+----
 
 ## Objectives of this hackathon project
 
@@ -23,7 +25,8 @@ Creating an accurate synthetic dataset of this size for the original project was
 3. [Method optimization](./Method-Optimization): Our prototype workflows are not very efficient in terms of either cost or runtime. We have some ideas for optimizing on both fronts (potentially using Hail) so the synthetic data sets would be more convenient and less costly to generate. Most suitable for people with algorithm and/or pipeline development experience.
 
 4. [Quality control](./Quality-Control): Once we generate the synthetic data, we need to make sure it matches what we expect based on method parameters. For example, if we spike in mutations we need to verify that we can pull out the expected variants. We plan to develop publicly shareable QC notebooks (but open to external contributions of course) using existing code from our internal QC group. This would also scratch a more general itch that people have around QCing genomic datasets. Most suitable for people with analytical and/or pipeline development experience.
-
+  
+----
 
 ## Workspace in Terra
 
@@ -39,7 +42,8 @@ https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic
 - [Link to Basic Terra Introductory PDFs](https://drive.google.com/open?id=14eKJk6xYqLNm9rVnUE7FN_f6kqckZOaY)
 
 ![alt text](./images/terra-slide.png)
-
+  
+----
 
 ## Hackathon project results
 
