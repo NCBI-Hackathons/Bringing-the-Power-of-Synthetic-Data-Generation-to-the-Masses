@@ -6,7 +6,7 @@ Our intent is to make it easier to generate synthetic sequence data for testing 
 
 ## Background
 
-In a nutshell, we're starting from a prototype our team built for ASHG (American Society of Human Genetics) 2018 as a demonstration of how to make a reproducible research study. In the original study, the authors identified risk factors for congenital heart disease using exome data from a cohort of more than 800 patients. To make this study reproducible, we needed to generate a synthetic data set, since the original data were private (we decided that it would be simpler than making the original data set sufficiently anonymous). We started from publicly available VCFs from the 1000 Genomes Project, generated synthetic exomes and spiked in mutations of interest. As part of that project, we wrote some pipelines to leverage existing tools (including NEAT and BamSurgeon) for generating synthetic data. You can find a poster that summarizes the project [here](./presentations/ASHG18-Reproducible-Paper-ToF-poster.pdf), and the Terra workspace is [here](https://app.terra.bio/#workspaces/help-gatk/Reproducibility_Case_Study_Tetralogy_of_Fallot). 
+We started from a prototype our team built for ASHG (American Society of Human Genetics) 2018 as a demonstration of how to make a reproducible research study. In the original study, the authors identified risk factors for congenital heart disease using exome data from a cohort of more than 800 patients. To make this study reproducible, we needed to generate a synthetic data set, since the original data were private (we decided that it would be simpler than making the original data set sufficiently anonymous). We started from publicly available VCFs from the 1000 Genomes Project, generated synthetic exomes and spiked in mutations of interest. As part of that project, we wrote some pipelines to leverage existing tools (including NEAT and BamSurgeon) for generating synthetic data. You can find a poster that summarizes the project [here](./presentations/ASHG18-Reproducible-Paper-ToF-poster.pdf), and the Terra workspace is [here](https://app.terra.bio/#workspaces/help-gatk/Reproducibility_Case_Study_Tetralogy_of_Fallot). 
 
 Here's an infographic that breaks down the main components of the original paper and the work that was necessary to reproduce it:
 
@@ -20,11 +20,11 @@ And here's an overview of the workflows and notebook we implemented:
 
 ## Objectives of this hackathon project
 
-The [intro slides from Day 1](./presentations/190415-BioIT-Hackathon-project-intro_Day1.pdf) give an overview of what we envision as we begin the project.
+Creating an accurate synthetic dataset of this size for the original project was a fairly painful process, and we realized there would be great value in turning our prototype into a community resource. Hence the idea of bringing it to the FAIR Data Hackathon! 
+
+We outlined four top objectives with tangible deliverables that would accommodate people of different backgrounds, skillsets and interests, and formed working groups to tackle them. Here's an overview of the four main buckets of work we identified:
 
 ![Project design](./images/project-design.png)
-
-Creating an accurate synthetic dataset of this size for the original project was a fairly painful process, and we realized there would be great value in turning our prototype into a community resource. Hence the idea of bringing it to the hackathon! We plan on dividing up our team to tackle four main objectives, each with tangible deliverables, that accommodate people of different backgrounds, skillsets and interests:
 
 1. [Data in demand](./Data-Demand): This group will search the research space to determine specifications of datasets (exomes? wgs? what coverage?) that would be most useful to generate as freely available resources so that people don't have to generate them from scratch every time. Most suitable for people with high scientific chops but low computational chops.
 
