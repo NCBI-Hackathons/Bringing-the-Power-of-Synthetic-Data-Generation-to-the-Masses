@@ -26,13 +26,13 @@ We outlined four top objectives with tangible deliverables that would accommodat
 
 ![Project design](./images/project-design.png)
 
-1. [Data in demand](./Data-Demand): This group will search the research space to determine specifications of datasets (exomes? wgs? what coverage?) that would be most useful to generate as freely available resources so that people don't have to generate them from scratch every time. Most suitable for people with high scientific chops but low computational chops.
+1. [Data in demand](./Data-Demand): Search the research space to determine specifications of datasets (exomes? wgs? what coverage?) that would be most useful to generate as freely available resources so that people don't have to generate them from scratch every time. Most suitable for people with high scientific chops but low computational chops.
 
-2. [Diversifying Options](./Diversifying-Options): This group will explore extending synthetic data sets to include additional variant types. Our current prototype can only spike-in SNPs, but the tools we leverage can do other variant types. Most suitable for people with analytical and/or pipeline development experience.
+2. [Diversifying Options](./Diversifying-Options): Explore extending synthetic data sets to include additional variant types. Our current prototype can only spike-in SNPs, but the tools we leverage can do other variant types. Most suitable for people with analytical and/or pipeline development experience.
 
-3. [Method optimization](./Method-Optimization): Our prototype workflows are not very efficient in terms of either cost or runtime. We have some ideas for optimizing on both fronts (potentially using Hail) so the synthetic data sets would be more convenient and less costly to generate. Most suitable for people with algorithm and/or pipeline development experience.
+3. [Method optimization](./Method-Optimization): Make the workflows faster and cheaper to run. Our original prototype workflows are not very efficient in terms of either cost or runtime; if we want to build this out at scale we need the synthetic data sets to be more convenient and less costly to generate. Most suitable for people with algorithm and/or pipeline development experience.
 
-4. [Quality control](./Quality-Control): Once we generate the synthetic data, we need to make sure it matches what we expect based on method parameters. For example, if we spike in mutations we need to verify that we can pull out the expected variants. We plan to develop publicly shareable QC notebooks (but open to external contributions of course) using existing code from our internal QC group. This would also scratch a more general itch that people have around QCing genomic datasets. Most suitable for people with analytical and/or pipeline development experience.
+4. [Quality control](./Quality-Control): Add quality control. Once we generate the synthetic data, we need to make sure it matches what we expect based on method parameters, that it is suitable for its intended purposes, and we need to verify that we can pull out the variants that we spiked in. Most suitable for people with analytical and/or pipeline development experience.
   
 ----
 
