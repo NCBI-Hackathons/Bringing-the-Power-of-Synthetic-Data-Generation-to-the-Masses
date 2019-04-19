@@ -1,6 +1,8 @@
 # Bringing the Power of Synthetic (Sequence) Data Generation to the Masses
 
-This project was initiated in the context of the [FAIR Data Hackathon](https://www.bio-itworldexpo.com/fair-data-hackathon) organized by NCBI as part of the Bio-IT World conference in Boston in April 2019. If you're not familiar with [FAIR](https://www.nature.com/articles/sdata201618), it's a set of principles and protocols for making research resources more Findable, Accessible, Interoperable and Reusable. This project, spearheaded by members of the Terra support team at the Broad Institute, is part of an effort to make it easier to generate synthetic sequence data for testing pipelines, sharing methods and increasing the reproducibility of published studies that involve access-restricted datasets. 
+This project was initiated in the context of the [FAIR Data Hackathon](https://www.bio-itworldexpo.com/fair-data-hackathon) organized by NCBI as part of the Bio-IT World conference in Boston in April 2019. If you're not familiar with [FAIR](https://www.nature.com/articles/sdata201618), it's a set of principles and protocols for making research resources more Findable, Accessible, Interoperable and Reusable. 
+
+Our intent is to make it easier to generate synthetic sequence data for testing pipelines, sharing methods and increasing the reproducibility of published studies that involve access-restricted datasets. 
 
 ## Background
 
@@ -65,20 +67,18 @@ We are looking to collaborate on developing this further into a proper resource 
 
 ---- 
 
-## Team
+## Team contributors
 
-### Guest stars
-Ernesto Andrianantoandro
-Dan Rozelle
-Jay Moore
-Rory Davidson
-Roma Kurilov
-Vrinda Pareek
+Ernesto Andrianantoandro   
+Dan Rozelle   
+Jay Moore   
+Rory Davidson   
+Roma Kurilov   
+Vrinda Pareek   
 
-### Broadies
-Adelaide Rhodes
-Allie Hajian
-Anton Kovalsky
-Ruchi Munshi
-Tiffany Miller
-Geraldine Van der Auwera
+Adelaide Rhodes   
+Allie Hajian   
+Anton Kovalsky   
+Ruchi Munshi   
+Tiffany Miller   
+Geraldine Van der Auwera   
