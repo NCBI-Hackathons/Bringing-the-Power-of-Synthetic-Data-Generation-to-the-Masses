@@ -4,11 +4,15 @@ This project was initiated in the context of the [FAIR Data Hackathon](https://w
 
 ## Background
 
-In a nutshell, we're starting from a prototype our team built for ASHG (American Society of Human Genetics) 2018 as a demonstration of how to make a reproducible research study. In the original study, the authors identified risk factors for congenital heart disease using exome data from a cohort of more than 800 patients. To make this study reproducible, we needed to generate a synthetic data set, since the original data were private (we decided that it would be simpler than making the original data set sufficiently anonymous). We started from publicly available VCFs from the 1000 Genomes Project, generated synthetic exomes and spiked in mutations of interest. As part of that project, we wrote some pipelines to leverage existing tools (including NEAT and BamSurgeon) for generating synthetic data. We have a poster that summarizes the project [here](./presentations/ASHG18-Reproducible-Paper-ToF-poster.pdf).
+In a nutshell, we're starting from a prototype our team built for ASHG (American Society of Human Genetics) 2018 as a demonstration of how to make a reproducible research study. In the original study, the authors identified risk factors for congenital heart disease using exome data from a cohort of more than 800 patients. To make this study reproducible, we needed to generate a synthetic data set, since the original data were private (we decided that it would be simpler than making the original data set sufficiently anonymous). We started from publicly available VCFs from the 1000 Genomes Project, generated synthetic exomes and spiked in mutations of interest. As part of that project, we wrote some pipelines to leverage existing tools (including NEAT and BamSurgeon) for generating synthetic data. You can find a poster that summarizes the project [here](./presentations/ASHG18-Reproducible-Paper-ToF-poster.pdf). 
+
+Here's an infographic that breaks down the main components of the original paper and the work that was necessary to reproduce it:
 
 ![Original project](./images/case-study-cropped.png)
 
-Be sure to check out the **Background reading** section in the [Data Demand README doc](./Data-Demand/README.md) for pointers to interesting articles on the purpose of synthetic datasets and examples of tools and approaches that can be used for generating synthetic sequence data. 
+And here's an overview of the workflows and notebook we implemented:
+
+![Workflows and notebook](./images/original-materials.png)
   
 ----
 
@@ -16,7 +20,8 @@ Be sure to check out the **Background reading** section in the [Data Demand READ
 
 The [intro slides from Day 1](./presentations/190415-BioIT-Hackathon-project-intro_Day1.pdf) give an overview of what we envision as we begin the project.
 
-![alt text](./images/Workflow.png)
+![alt text](./images/original-materials.png)
+)
 
 Creating an accurate synthetic dataset of this size for the original project was a fairly painful process, and we realized there would be great value in turning our prototype into a community resource. Hence the idea of bringing it to the hackathon! We plan on dividing up our team to tackle four main objectives, each with tangible deliverables, that accommodate people of different backgrounds, skillsets and interests:
 
