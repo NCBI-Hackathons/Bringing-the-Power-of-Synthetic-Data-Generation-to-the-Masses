@@ -54,3 +54,31 @@ https://app.terra.bio/#workspaces/bioit-hackathon/BioIT-Hackathon-2019-Synthetic
 ## Hackathon project results
 
 We summarized our results [here](results.md) on Day 2, and later presented a more polished recap and summary in the FAIR data track of the BioIT conference. Those slides are here in [PPT](./presentations/BioIT19-FAIR-hackathon-syntheticdata-report.ppt) and [PDF](./presentations/BioIT19-FAIR-hackathon-syntheticdata-report.pdf), and on slideshare [here](https://www.slideshare.net/GeraldineVanderAuwer/bio-ithackathon/GeraldineVanderAuwer/bio-ithackathon). 
+
+----
+
+## Next steps
+
+We are looking to collaborate on developing this further into a proper resource that researchers can use off the shelf.
+
+![Next steps](./images/next-steps.png)
+
+---- 
+
+## Team
+
+### Guest stars
+Ernesto Andrianantoandro
+Dan Rozelle
+Jay Moore
+Rory Davidson
+Roma Kurilov
+Vrinda Pareek
+
+### Broadies
+Adelaide Rhodes
+Allie Hajian
+Anton Kovalsky
+Ruchi Munshi
+Tiffany Miller
+Geraldine Van der Auwera
