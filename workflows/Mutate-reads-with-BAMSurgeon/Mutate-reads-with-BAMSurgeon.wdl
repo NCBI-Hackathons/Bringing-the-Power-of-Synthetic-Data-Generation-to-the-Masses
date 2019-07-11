@@ -43,7 +43,6 @@
 # WORKFLOW DEFINITION
 workflow MutateReadsWithBAMSurgeon {
 
-
   File input_bam
   File input_bam_index
   File? snp_variants
@@ -75,12 +74,16 @@ workflow MutateReadsWithBAMSurgeon {
         snp_variants = select_first([snp_variants]),
         snp_extra_params = snp_extra_params
     }
+
+    call SortAndIndexBam as SnpSortAndIndexBam {
+      input:
+        input_bam = AddSNV.output_bam
+    }
   }
 
-
   if (defined(indel_variants)) {
-    File indel_bam = select_first([AddSNV.output_bam, input_bam])
-    File indel_bam_index = select_first([AddSNV.output_bam_index, input_bam_index])
+    File indel_bam = select_first([SnpSortAndIndexBam.sorted_bam, input_bam])
+    File indel_bam_index = select_first([SnpSortAndIndexBam.sorted_bam_index, input_bam_index])
 
     call AddINDEL {
       input:
@@ -97,16 +100,16 @@ workflow MutateReadsWithBAMSurgeon {
         indel_variants = indel_variants,
         indel_extra_params = indel_extra_params,
     }
+
+    call SortAndIndexBam as IndelSortAndIndexBam {
+      input:
+        input_bam = AddINDEL.output_bam
+    }
   }
 
-  call SortAndIndexBam {
-    input:
-      input_bam = select_first([AddINDEL.output_bam, AddSNV.output_bam])
-  }
-  
   output {
-    File mutated_bam = SortAndIndexBam.sorted_bam
-    File mutated_bam_index = SortAndIndexBam.sorted_bam_index
+    File mutated_bam = select_first([IndelSortAndIndexBam.sorted_bam, SnpSortAndIndexBam.sorted_bam])
+    File mutated_bam_index = select_first([IndelSortAndIndexBam.sorted_bam_index, SnpSortAndIndexBam.sorted_bam_index])
   }
 }
 
@@ -152,8 +155,6 @@ task AddSNV {
     	-o ${output_bam_name} \
     	--picardjar ${picard_jar} \
     	--tagreads ${snp_extra_params}
-
-    samtools index ${output_bam_name}
   }
   
   runtime {
@@ -165,7 +166,6 @@ task AddSNV {
   
   output {
     File output_bam = "${output_bam_name}"
-    File output_bam_index = "${output_bam_name}.bai"
   }
 }
 
@@ -209,8 +209,6 @@ task AddINDEL {
     	-o ${output_bam_name} \
     	--picardjar ${picard_jar} \
     	--tagreads ${indel_extra_params}
-
-    samtools index ${output_bam_name}
   }
 
   runtime {
@@ -222,7 +220,6 @@ task AddINDEL {
 
   output {
     File output_bam = "${output_bam_name}"
-    File output_bam_index = "${output_bam_name}.bai"
   }
 }
 
