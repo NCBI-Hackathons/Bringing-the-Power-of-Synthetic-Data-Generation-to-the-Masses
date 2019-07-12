@@ -235,7 +235,7 @@ task SortAndIndexBam {
   Int preemptible_tries = 3
   String docker_image = "us.gcr.io/broad-gatk/gatk:4.0.9.0"
   String gatk_path = "/gatk/gatk"
-  Int disk_size = ceil(size(input_bam, "GB")) + 20
+  Int disk_size = ceil(size(input_bam, "GB") * 2) + 20
 
   String sorted_bam_name = basename(input_bam, '.bam') + ".mutated.sorted.bam"
   String bam_index_name = basename(sorted_bam_name, '.bam') + ".bai"
