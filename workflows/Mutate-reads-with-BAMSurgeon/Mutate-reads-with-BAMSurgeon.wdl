@@ -195,7 +195,7 @@ task AddINDEL {
   String docker_image = "lethalfang/bamsurgeon:1.1-3"
   String path_to_bamsurgeon = "/usr/local/bamsurgeon/bin/"
   String picard_jar = "/usr/local/picard-tools-1.131/picard.jar"
-  Int disk_size = ceil(size(input_bam, "GB") * 3) + 20
+  Int disk_size = ceil(size(input_bam, "GB") * 2) + 20
 
   String output_bam_name = basename(input_bam)
 
@@ -235,7 +235,7 @@ task SortAndIndexBam {
   Int preemptible_tries = 3
   String docker_image = "us.gcr.io/broad-gatk/gatk:4.0.9.0"
   String gatk_path = "/gatk/gatk"
-  Int disk_size = ceil(size(input_bam, "GB") * 2) + 20
+  Int disk_size = ceil(size(input_bam, "GB") * 3.25) + 20
 
   String sorted_bam_name = basename(input_bam, '.bam') + ".mutated.sorted.bam"
   String bam_index_name = basename(sorted_bam_name, '.bam') + ".bai"
@@ -245,7 +245,8 @@ task SortAndIndexBam {
       -I ${input_bam} \
       -O ${sorted_bam_name} \
       --SORT_ORDER coordinate \
-      --CREATE_INDEX TRUE
+      --CREATE_INDEX TRUE \
+      --MAX_RECORDS_IN_RAM=300000
   }
 
   runtime {
