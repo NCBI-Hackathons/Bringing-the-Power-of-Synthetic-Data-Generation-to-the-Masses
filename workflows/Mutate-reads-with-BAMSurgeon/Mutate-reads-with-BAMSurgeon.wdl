@@ -195,7 +195,7 @@ task AddINDEL {
   String docker_image = "lethalfang/bamsurgeon:1.1-3"
   String path_to_bamsurgeon = "/usr/local/bamsurgeon/bin/"
   String picard_jar = "/usr/local/picard-tools-1.131/picard.jar"
-  Int disk_size = ceil(size(input_bam, "GB") * 2) + 20
+  Int disk_size = ceil(size(input_bam, "GB") * 3) + 20
 
   String output_bam_name = basename(input_bam)
 
