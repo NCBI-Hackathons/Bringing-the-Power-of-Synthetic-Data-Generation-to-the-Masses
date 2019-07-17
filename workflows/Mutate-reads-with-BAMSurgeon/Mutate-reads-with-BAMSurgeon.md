@@ -14,11 +14,12 @@
 
 ### Main inputs
  - One BAM file to mutate
- - One file of input variants as described in the BAMSurgeon manual, with desired allele frequency for each
+ - One file of input snp variants as described in the BAMSurgeon manual, with desired allele frequency for each
+ - One file of input indel variants as described in the BAMSurgeon manual, with desired allele frequency for each
  - Reference genome, index and dictionary, plus BWA indices
 
  Important parameters
- - None by default; BAMSurgeon parameters can be added using the optional `extra_params` argument.
+ - None by default; BAMSurgeon parameters can be added using the optional `snp_extra_params` or `indel_extra_params` arguments.
 
 ### Outputs
  - New BAM file with mutated reads with the desired allele(s) at the specified allele frequency
