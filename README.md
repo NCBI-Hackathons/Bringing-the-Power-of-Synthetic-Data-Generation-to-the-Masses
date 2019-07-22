@@ -61,7 +61,7 @@ We summarized our results [here](results.md) on Day 2, and later presented a mor
 
 ## Next steps
 
-We are looking to collaborate on developing this further into a proper resource that researchers can use off the shelf.
+We are looking to collaborate on developing this further into a proper resource that researchers can use off the shelf. This work will continue in https://github.com/terra-workflows/synthetic-seq-data; please go there if you are interested in contributing to the project. 
 
 ![Next steps](./images/next-steps.png)
 
